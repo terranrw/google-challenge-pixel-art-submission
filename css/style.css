@@ -1,0 +1,289 @@
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+body {
+	text-align: center;
+	background: url(https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-0.3.5&s=e20bc3d490c974d9ea190e05c47962f5&auto=format&fit=crop&w=934&q=80);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.38);
+}
+
+h1 {
+	font-family: "Cabin Sketch", cursive;
+	font-size: 4rem;
+	margin: 0.1em;
+	color: #fff;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.77);
+}
+
+h2 {
+	margin: 1em 0 0.25em;
+	font-size: 1.8rem;
+	color: rgba(51, 102, 153, 1);
+	margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+	border: 1px solid #acc9cf;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 10% auto;
+	/*	border: 2px solid #16256c;*/
+}
+
+tr {
+	height: 1em;
+}
+
+td {
+	width: 1em;
+	background-color: hsla(0, 0%, 100%, 0.55);
+}
+
+/*INPUT TYPE COLOR*/
+input[type="color"] {
+	width: 6em;
+	height: 40px;
+	border: 1px solid rgba(51, 102, 153, 1);
+	/*	margin: 20px;*/
+	border-radius: 30px;
+	background: rgba(51, 102, 153, 1);
+	/*	position:absolute;*/
+	opacity: 1;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0px;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: solid 2px rgba(51, 102, 153, 1);
+	border-radius: 30px;
+	box-shadow: inset -12px -13px 22px -18px rgba(0, 0, 0, 0.7);
+}
+input[type="color"]::-webkit-color-swatch:hover {
+	box-shadow: inset -12px -13px 28px -18px rgba(0, 0, 0, 0.85);
+}
+input[type="color"]:hover {
+	background-color: rgba(51, 102, 153, 1);
+	box-shadow: 0px 0px 1px 5px rgba(51, 102, 153, 0.37);
+}
+/*INPUT BUTTON END*/
+
+label {
+	font-size: 1.2rem;
+}
+
+#pixelCanvas {
+	cursor: cell;
+	display: none;
+}
+
+#titleContent {
+	padding-top: 2.5%;
+}
+
+#backgroundContent {
+	box-shadow: 10px 10px 34px -2px rgba(0, 0, 0, 0.6);
+	/*	border: 2px solid #6CC9C2;*/
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.45);
+	margin-top: 10%;
+	display: none;
+}
+.bgContent {
+	box-shadow: 10px 10px 34px -2px rgba(0, 0, 0, 0.6);
+	/*	border: 2px solid #6CC9C2;*/
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.45);
+	margin-top: 10%;
+}
+#getStarted {
+	/*	margin-top: 10%;*/
+}
+
+#getStartedBtn {
+	margin-top: 7%;
+}
+
+/*COLOR PALETTE - buttons and icons*/
+.buttonMenu {
+	/*	display: block;*/
+	/*	display:inline;*/
+	/*	position: absolute;*/
+	border: none;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	margin: 3px 15px;
+	box-shadow: 10px 10px 22px -10px rgba(0, 0, 0, 0.55),
+		inset -12px -15px 22px -18px rgba(0, 0, 0, 0.8);
+	/*	Transitions Animations added to the buttons*/
+	-webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+	transition: width 0.2s, height 0.2s;
+}
+
+.buttonMenu:hover {
+	box-shadow: inset -12px -18px 22px -18px rgba(0, 0, 0, 0.85),
+		10px 10px 22px -10px rgba(0, 0, 0, 0.6);
+
+	/*	Transitions Animation added to the buttons
+	width: 42px;
+	height: 40px;
+*/
+}
+
+#redBtn {
+	background-color: #ff0000;
+}
+
+#pinkBtn {
+	background-color: #ff69b4;
+}
+
+#purpleBtn {
+	background-color: #800080;
+}
+
+#blueBtn {
+	background-color: #0000ff;
+}
+#aquaBtn {
+	background-color: #00ffff;
+}
+
+#greenBtn {
+	background-color: #00ff7f;
+}
+
+#yellowBtn {
+	background-color: #ffd700;
+}
+
+#orangeBtn {
+	background-color: #ff7f50;
+}
+
+#blackBtn {
+	background-color: #000;
+}
+
+#whiteBtn {
+	background-color: #fff;
+}
+
+/*icons*/
+.iconColor {
+	font-size: 1.3em;
+	color: #ffffff;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+.iconColor:hover {
+	transform: 0.1s;
+	font-size: 1.35em;
+	/*	color:rgba(220,220,220,1.00);*/
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+	/*	position:relative;*/
+}
+
+.toggleIcon {
+	font-size: 1em;
+	color: #fff;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.45);
+	/*	position:relative;*/
+	/*	margin: 0 0 0 -6px;*/
+}
+
+/*BS BUTTON MODS FOR THEME COLORS*/
+/*pink buttons*/
+.btnBSModPink {
+	color: #fff;
+	background-color: rgb(255, 57, 127);
+	border: none;
+	border-radius: 20px;
+	box-shadow: 10px 10px 22px -10px rgba(0, 0, 0, 0.55);
+	margin: 1px 5px;
+	/*	transition-duration: 0.3s;*/
+}
+
+/* Dropdown button on hover & focus */
+.btnBSModPink:hover,
+.btnBSModPink:focus {
+	background-color: rgb(255, 57, 127);
+	box-shadow: 0px 0px 1px 5px rgba(255, 57, 127, 0.37);
+}
+/*change active color */
+.btnBSModPink:active {
+	/*	transition-duration: 0.4s;*/
+	background-color: rgba(255, 57, 127, 0.37);
+}
+/*lilac buttons*/
+.btnBSModLilac {
+	color: #fff;
+	background-color: rgba(51, 102, 153, 1);
+	border: none;
+	border-radius: 20px;
+	box-shadow: 10px 10px 22px -10px rgba(0, 0, 0, 0.55);
+}
+
+/* Dropdown button on hover & focus */
+.btnBSModLilac:hover,
+.btnBSModLilac:focus {
+	background-color: rgba(51, 102, 153, 1);
+	box-shadow: 0px 0px 1px 5px rgba(51, 102, 153, 0.37);
+	/*	color: ;*/
+}
+.btnBSModLilac:active {
+	background-color: rgba(51, 102, 153, 0.37);
+}
+/* lilac2 */
+.btnBSModLilac2 {
+	color: #fff;
+	background-color: rgba(51, 102, 153, 1);
+	border: none;
+	border-radius: 20px;
+	box-shadow: 10px 10px 22px -10px rgba(0, 0, 0, 0.55),
+		inset 0px 0px 1px 5px rgba(100, 149, 201, 0.55);
+	margin: 1px 5px;
+}
+
+/* Dropdown button on hover & focus */
+.btnBSModLilac2:hover,
+.btnBSModLilac2:focus {
+	background-color: rgba(51, 102, 153, 1);
+	box-shadow: 0px 0px 1px 5px rgba(51, 102, 153, 0.37);
+	/*	color: ;*/
+}
+.btnBSModLilac2:active {
+	background-color: rgba(51, 102, 153, 0.37);
+}
+/* BS CUSTOM BUTTON END */
+
+/*BOOTSTRAP MOD OF BOOTSTRAP Classes and Ids*/
+.dropdown-menu {
+	background-color: rgba(51, 102, 153, 0.5);
+	border: none;
+	border-radius: 40px;
+	text-align: center;
+	/*	box-shadow: 2px 2px 3px 5px rgba(51,102,153,0.50);*/
+}
+
+.bg-dark {
+	background-color: #0f1b5e !important;
+}
+
+.form-control {
+	border-radius: 30px;
+}
+.form-control:active {
+	box-shadow: 0px 0px 1px 5px rgba(51, 102, 153, 0.37);
+	transition: none;
+}
