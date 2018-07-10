@@ -4,125 +4,115 @@
 <head>
   <meta charset="UTF-8">
   <title>Project 3: Pixel Art Project V3 Grow with Google Challenge </title>
-  
-  
-  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Cabin+Sketch:700'>
-<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://use.fontawesome.com/releases/v5.0.9/css/all.css'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
+  <link rel="stylesheet" href="css/style.css">  
 </head>
 
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<a class="navbar-brand" href="#">Pixel Art Maker</a>
-	<button class="navbar-toggler btnBSModLilac" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-		</button>
-	<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-		<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle btnBSModPink p-2 my-1" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Color Palette <span class="fas fa-adjust toggleIcon"></span></a>
-				<div class="dropdown-menu ">
-					<button class="buttonMenu" id="redBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
-					<button class="buttonMenu" id="pinkBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
-					<button class="buttonMenu" id="purpleBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
-					<button class="buttonMenu" id="blueBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
-					<button class="buttonMenu" id="aquaBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
-					<button class="buttonMenu" id="greenBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
-					<button class="buttonMenu" id="yellowBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
-					<button class="buttonMenu" id="orangeBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
-					<button class="buttonMenu" id="blackBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
-					<button class="buttonMenu" id="whiteBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
-					<div class="dropdown-divider d-none d-lg-block"></div>
-					<label class="nav-link my-1 d-none d-lg-block">Custom Color <span class="fas fa-tint toggleIcon"></span>
-							 <input type="color" class="m-2" id="colorPicker" value="#FFFFFF">
-					</label>
-				</div>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link btnBSModPink my-1" href="#" role="button" id="refresh">Refresh <span class="fas fa-sync toggleIcon"></span></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link btnBSModLilac2  my-1" href="#" role="button" id="eraser">Erase <span class="fas fa-eraser toggleIcon"></span></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link btnBSModLilac2 my-1" href="#" role="button" id="drawOnOff">Draw <span class="fas fa-edit toggleIcon"></span></a>
-			</li>
-		</ul>
-	</div>
-</nav>
-<div class="container bgContent" id="getStarted">
-	<div class="row">
-		<div class="col-lg-12">
-			<div id="content">
-				<h1>Pixel Art Maker</h1>
-				<h2>Draw. Paint. Express.</h2>
-				<button class="btn btnBSModPink btn-lg" id="getStartedBtn">Get Started</button>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<hr>
-	</div>
-</div>
+    <a class="navbar-brand" href="#">Pixel Art Maker</a>
+    <button class="navbar-toggler btnBSModLilac" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle btnBSModPink p-2 my-1" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Color Palette <span class="fas fa-adjust toggleIcon"></span></a>
+          <div class="dropdown-menu ">
+            <button class="buttonMenu" id="redBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
+            <button class="buttonMenu" id="pinkBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
+            <button class="buttonMenu" id="purpleBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
+            <button class="buttonMenu" id="blueBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
+            <button class="buttonMenu" id="aquaBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
+            <button class="buttonMenu" id="greenBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
+            <button class="buttonMenu" id="yellowBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
+            <button class="buttonMenu" id="orangeBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
+            <button class="buttonMenu" id="blackBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
+            <button class="buttonMenu" id="whiteBtn"><span class="fas fa-pencil-alt iconColor" ></span></button>
+            <div class="dropdown-divider d-none d-lg-block"></div>
+            <label class="nav-link my-1 d-none d-lg-block">Custom Color <span class="fas fa-tint toggleIcon"></span>
+                 <input type="color" class="m-2" id="colorPicker" value="#FFFFFF">
+            </label>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btnBSModPink my-1" href="#" role="button" id="refresh">Refresh <span class="fas fa-sync toggleIcon"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btnBSModLilac2  my-1" href="#" role="button" id="eraser">Erase <span class="fas fa-eraser toggleIcon"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btnBSModLilac2 my-1" href="#" role="button" id="drawOnOff">Draw <span class="fas fa-edit toggleIcon"></span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container bgContent" id="getStarted">
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="content">
+          <h1>Pixel Art Maker</h1>
+          <h2>Draw. Paint. Express.</h2>
+          <button class="btn btnBSModPink btn-lg" id="getStartedBtn">Get Started</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <hr>
+    </div>
+  </div>
 
-<div class="container" id="backgroundContent">
-	<div class="row">
-		<div class="col-12">
-			<h2>Choose Grid Size</h2>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-12">
-			<form id="sizePicker" action="">
-				<div class="form-row align-items-center">
-					<label class="col-md-2 my-1" for="inputHeight">Grid Height:</label>
-					<div class="col-md-3 my-1">
-						<input type="number" class="form-control" id="inputHeight" name="height" min="1" max="100" value="20">
-					</div>
+  <div class="container" id="backgroundContent">
+    <div class="row">
+      <div class="col-12">
+        <h2>Choose Grid Size</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <form id="sizePicker" action="">
+          <div class="form-row align-items-center">
+            <label class="col-md-2 my-1" for="inputHeight">Grid Height:</label>
+            <div class="col-md-3 my-1">
+              <input type="number" class="form-control" id="inputHeight" name="height" min="1" max="100" value="20">
+            </div>
 
-					<label class="col-md-2 my-1" for="inputWeight">Grid Width:</label>
-					<div class="col-md-3 my-1">
-						<input type="number" class="form-control" id="inputWeight" name="width" min="1" max="100" value="20">
-					</div>
-					<button type="submit" class="btn btnBSModLilac col-md-2 my-2" id="submitCusGrid">Submit</button>
-				</div>
-			</form>
-		</div>
-	</div>
-	<hr>
+            <label class="col-md-2 my-1" for="inputWeight">Grid Width:</label>
+            <div class="col-md-3 my-1">
+              <input type="number" class="form-control" id="inputWeight" name="width" min="1" max="100" value="20">
+            </div>
+            <button type="submit" class="btn btnBSModLilac col-md-2 my-2" id="submitCusGrid">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <hr>
 
-	<div class="row">
-		<div class="col-12">
-			<h2>Preset</h2>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-12">
-			<button type="button" class="btn col-md-3 my-1 btnBSModPink" id="presetSmall">15 x 15</button>
-			<button type="button" class="btn col-md-3 my-1 btnBSModPink" id="presetMedium">35 x 35</button>
-			<button type="button" class="btn col-md-3 my-1 btnBSModPink" id="presetLarge">50 x 50</button>
-		</div>
-	</div>
-	<div class="row">
-		<hr>
-	</div>
-</div>
+    <div class="row">
+      <div class="col-12">
+        <h2>Preset</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <button type="button" class="btn col-md-3 my-1 btnBSModPink" id="presetSmall">15 x 15</button>
+        <button type="button" class="btn col-md-3 my-1 btnBSModPink" id="presetMedium">35 x 35</button>
+        <button type="button" class="btn col-md-3 my-1 btnBSModPink" id="presetLarge">50 x 50</button>
+      </div>
+    </div>
+    <div class="row">
+      <hr>
+    </div>
+  </div>
 
-<table id="pixelCanvas"></table>
-	
-<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script  src="js/index.js"></script>
+  <table id="pixelCanvas"></table>
 
-
-
-
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script  src="js/index.js"></script>
 </body>
-
 </html>
